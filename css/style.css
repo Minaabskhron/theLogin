@@ -1,0 +1,60 @@
+.home{
+    background-color: #24353F;
+}
+h1{
+    color: #179FB4;
+}
+.home .form-control{
+        background-color: transparent;
+}
+.home input::placeholder{
+    color: rgb(165, 163, 163) !important;
+}
+
+.home .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+    border-color: #80bdff;
+    outline: 0;
+}
+.box-shadowDiv{
+    box-shadow:  10px 10px 30px;
+    width: 60%;
+}
+.my-link{
+    text-decoration: none;
+}
+.my-link:hover{
+    text-decoration: underline;
+}
+.theValidatorText{
+     text-align: center;
+}
+.valid{
+    color: #28A745;
+}
+.inValid{
+    color: #AC353F;
+}
+.incorrectText{
+    text-align: center;
+    color: #D63540;
+}
+.main-div{
+    background-color: #24353F;
+}
+.welcomeDiv{
+    box-shadow: 50px 50px 50px;
+    width: 900px;
+    height: 150px;
+}
+.welcomeText{
+    color: #17A2B8;
+}
+.mybtn-link{
+    color: rgba(255,255,255,.5);
+    transition: color .25s;
+}
+.mybtn-link:hover{
+    color: white;
+}
